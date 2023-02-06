@@ -1,0 +1,108 @@
+
+.head{
+    width: 100%;
+    height: 80px;
+    background-color: #212834;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.underHeader{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 44.451236724853516px;
+    width: 162.4949951171875px;
+    left: 55.601318359375px;
+    }
+
+.sun{
+    width: 85px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    width: 40.41px;
+    height: 40.41px;
+    border-radius: 50%;
+    background-color: rgba(165, 136, 231, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name p{
+    width: 11px;
+    height: 13px;
+    text-align: center;
+    height: 13px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+}
+.butHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    width: 143px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A37DF9 0%, #7B5AC5 100%);
+}
+.butHome p{
+    font-family: Axiforma, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.butHome img{
+    width: 19.42px;
+    height: 21.21px;
+    margin-right: 8.58px;
+}
+.nav{
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    height: 47px;
+    width: 143px;
+    float: left;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+.nav li:hover{
+
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A37DF9 0%, #7B5AC5 100%);
+}
+.li img{
+    width: 27px;
+    height: 27px;
+}

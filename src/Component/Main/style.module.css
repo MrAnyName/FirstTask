@@ -1,0 +1,148 @@
+.allMain{
+    width: 100%;
+    height: 863px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+
+.underMain{
+    margin-top: 19px;
+    width: 90%;
+    border: 1px dashed wheat;
+    height: auto;
+}
+
+.leftSide{
+    width: 25%;
+    height: 678.36px;
+    background-color: rgba(33, 39, 52, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftHead{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.leftHead button{
+    margin-top: 30px;
+    margin-right: 4px;
+    height: 40px;
+    width: 44%;
+    border-radius: 7px;
+    background: #1A202C;
+    border: 1px solid #2B3548;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Axiforma, serif ;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftHead button p{
+    margin-left: 4px;
+    width: 76%;
+    text-align: left;
+    cursor: pointer;
+}
+.leftHead button img{
+    width: auto;
+    height: 12.25px;
+    margin-right: 5px;
+}
+.sideInp{
+    height: 50px;
+    width: 90%;
+    border-radius: 7px;
+    padding-top: -120px;
+
+}
+
+.leftMain{
+    margin-top: 5px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.vals{
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.vals button{
+    width: 27px;
+    height: 27px;
+}
+.vals button img{
+    width: 100%;
+    height: auto;
+    background-color: rgba(43, 53, 72, 1);
+}
+.criptoes{
+    margin-top: 5px;
+    height: 234px;
+    width: 378px;
+    border-radius: 7px;
+    background-color: rgba(26, 32, 44, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cptUp{
+    width: 90%;
+    height: 40%;
+    border-bottom: 1px solid rgba(104, 104, 104, 1);
+    display: flex;
+}
+.uplft{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.uplft img{
+    width: 27px;
+    height: 27px;
+}
+.uplft p {
+    height: 33px;
+    width: 101px;
+    font-family: Axiforma, serif;
+    color: rgba(255, 255, 255, 1);
+
+}
+.uplft h2{
+    font-family: Axiforma, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color:rgba(255, 255, 255, 1) ;
+    margin-left: 5px;
+
+}
+.uprght{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uprght p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgba(97, 226, 36, 1);
+    font-family: Axiforma, serif;
+}

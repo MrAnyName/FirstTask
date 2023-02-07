@@ -16,7 +16,16 @@
 }
 .logo{
     height: 44.451236724853516px;
-    width: 162.4949951171875px;
+    width: 162.4949951171875px;}
+.name{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: rgba(165, 136, 231, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     left: 55.601318359375px;
     }
 
@@ -27,16 +36,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.name{
-    width: 40.41px;
-    height: 40.41px;
-    border-radius: 50%;
-    background-color: rgba(165, 136, 231, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 .name p{
     width: 11px;
     height: 13px;

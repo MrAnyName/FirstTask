@@ -18,17 +18,16 @@ const Main = () => {
     const [cid,setCid]=useState()
 
     const [state,setState]=useState([
-        {id:1,name:"Metamask",src:MetaLogo,proc:"4.85%"},
-        {id:2,name:"Binance",src:BinanceLogo,proc:"4.85%"},
-        {id:3,name:"Coinbase",src:Coinbase,proc:"4.85%"},
-        {id:4,name:"Coinbase",src:Coinbase,proc:"4.85%"},
-        {id:5,name:"Coinbase",src:Coinbase,proc:"4.85%"},
-        {id:6,name:"Coinbase",src:Coinbase,proc:"4.85%"},
+        {id:1,name:"Metamask",src:MetaLogo,proc:"4.85%",price:800.00},
+        {id:2,name:"Binance",src:BinanceLogo,proc:"4.85%",price:100.00},
+        {id:3,name:"Coinbase",src:Coinbase,proc:"4.85%",price:805.00},
+        {id:4,name:"Coinbase",src:Coinbase,proc:"4.85%",price:540.00},
+        {id:5,name:"Coinbase",src:Coinbase,proc:"4.85%",price:840.00},
+        {id:6,name:"Coinbase",src:Coinbase,proc:"4.85%",price:8000.00},
     ])
 
     return (
-        <div className={style.allMain}>
-            <div className={style.underMain}>
+
                 <div className={style.leftSide}>
                     <div className={style.leftHead}>
                         <button>
@@ -43,7 +42,7 @@ const Main = () => {
                     </div>
                     <div className={style.leftMain}>
 
-                        {state.map(({id,name,src,proc})=>{
+                        {state.map(({id,name,src,proc,price})=>{
                             return <div className={style.vals}>
                                 <img src={src} alt="img"/>
                                 <h3>{name}</h3>
@@ -65,15 +64,22 @@ const Main = () => {
                                                     <img src={src} alt="img"/>
                                                     <h2>{name}</h2>
                                                 </div>
-                                                <p>$1000.00</p>
+                                                <p>${price}</p>
                                             </div>
                                             <div className={style.uprght} >
-                                                <p>4.85%</p>
+                                                <p>{price/1000*100}%</p>
                                                 <img src={green} alt="img"/>
                                             </div>
                                         </div>
                                         <div className={style.cptDown}>
-
+                                            <div>
+                                                <img src={src} alt="img"/>
+                                                <p>{name} Saving</p>
+                                            </div>
+                                            <div>
+                                                <img src={src} alt="img"/>
+                                                  <p>{name} Futures</p>
+                                            </div>
                                         </div>
                                     </div>
                                 }
@@ -86,9 +92,8 @@ const Main = () => {
 
                 </div>
 
-            </div>
 
-        </div>
+
     );
 };
 

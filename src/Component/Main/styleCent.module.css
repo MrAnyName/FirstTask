@@ -213,22 +213,221 @@ background-color: rgba(33, 40, 52, 1);
 /*////////////////////////////////*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .down{
     width: 100%;
     height: 310px;
+    display: flex;
+    justify-content: space-between;
+
 }
+.downLeft{
+    margin-top: 5px;
+    width: 30%;
+    height: 98%;
+    background-color: rgba(33, 39, 52, 1);
+    border-radius: 10px ;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+}
+
+.downUp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80%;
+}
+.D{
+    margin-top: 5px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: rgba(128, 90, 213, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+
+}
+.price{
+    margin-top: 5px;
+    width: 200px;
+}
+.priceIm{
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.priceIm p{
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgba(128, 90, 213, 1);
+}
+.price h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.downDown{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    align-items: flex-end;
+}
+.downDown p{
+    font-family: Axiforma, serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 3px;
+    margin-left: 5px;
+}
+.downDown p:hover{
+    border: 1px solid rgba(104, 104, 104, 1);
+    background-color: rgba(26, 32, 44, 1);
+}
+
+.downCenter{
+
+    width: 34.5%;
+    margin-top: 5px;
+    height: 98%;
+    background-color: rgba(33, 39, 52, 1);
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.downCentHead{
+    width: 90%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.downCentHead p {
+    margin-top: 5px;
+    font-family: 'Axiforma', serif;
+    font-style: normal;
+    color: #FFFFFF
+}
+.downCentHead a{
+    text-decoration: none;
+    color: #805AD5;
+}
+
+.downCentButs{
+    margin-bottom: 20px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.downCentButs button{
+    margin-top: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 9.54px;
+    border:1px solid rgba(128, 90, 213, 1);
+    background-color: rgba(33, 39, 52, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.downCentButs button img{
+    margin-left: 5px;
+    width: 23px;
+    height: 23px;
+
+}
+.downCentButs button p{
+
+    font-size: 14px;
+    color: rgba(153, 111, 248, 1);
+    font-family: Axiforma,serif;
+}
+.downCentButs button h3{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Axiforma,serif;
+    margin-right: 5px;
+
+}
+.downCentButs button h3 img{
+    width: 10px;
+    height: 10px;
+}
+
+.downRight{
+    margin-right: 5px;
+    width: 33%;
+    margin-top: 5px;
+    height: 98%;
+    background-color: rgba(33, 39, 52, 1);
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rigMain{
+    margin-top: 15px;
+    width: 90%;
+    height: 25%;
+    border-radius: 10px;
+    display: flex;
+}
+.rigMain2{
+    margin-top: 10px;
+    width: 90%;
+    height:30%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size :100% !important;
+}
+.rightMainLeft{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.rightMainLeft p {
+    margin-left: 2px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.anyp{
+    display: flex;
+
+}
+
+.any{
+    width: 100%;
+    justify-content:space-between;
+  display: flex;
+    align-items: center;
+    background-color: #1A202C;
+    border-radius: 10px
+
+}
+
+.rightMainrg{
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 70%;
+    font-size: 24px;
+    ;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+

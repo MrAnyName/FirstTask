@@ -17,6 +17,7 @@ const Main = () => {
     const[bul,setBul]=useState(false)
     const [cid,setCid]=useState()
 
+
     const [state,setState]=useState([
         {id:1,name:"Metamask",src:MetaLogo,proc:"4.85%",price:800.00},
         {id:2,name:"Binance",src:BinanceLogo,proc:"4.85%",price:100.00},
@@ -25,6 +26,7 @@ const Main = () => {
         {id:5,name:"Coinbase",src:Coinbase,proc:"4.85%",price:840.00},
         {id:6,name:"Coinbase",src:Coinbase,proc:"4.85%",price:8000.00},
     ])
+
 
     return (
 
@@ -85,6 +87,7 @@ const Main = () => {
                                 }
 
                             </div>
+
                         })}
 
 

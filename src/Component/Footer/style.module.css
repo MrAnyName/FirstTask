@@ -1,0 +1,76 @@
+.foot{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+
+}
+.inFoot{
+    margin-left: 10px;
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.left{
+    width: 24%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgba(33, 39, 52, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+button:hover{
+    cursor: pointer;
+}
+.free{
+    margin-top: 5px;
+    margin-left: 5px;   width: 95%;
+    display: flex;
+}
+.free p{
+    color: rgba(255, 255, 255, 1);
+    font-family: Axiforma,Serif;
+    font-size: 16.5px;
+}
+
+.redtxt{
+    color: rgba(224, 79, 68, 1) !important;
+}
+.butX{
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: rgba(26, 32, 44, 1);
+    border: rgba(26, 32, 44, 1);
+
+}
+.sub{
+    background-color: #A37DF9;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.right{
+    margin-left: 10px;
+    width: 75%;
+    min-height: 25px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgba(33, 39, 52, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
